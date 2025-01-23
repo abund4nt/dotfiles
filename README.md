@@ -2,4 +2,4 @@
 
 I use Ubuntu (native) + i3 + tmux
 
-<img src="https://i.imgur.com/27iLH61.png" width=250px/>
+<img src="https://i.imgur.com/27iLH61.png" width=850px/>
