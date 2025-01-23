@@ -2,4 +2,4 @@
 
 I use Ubuntu (native) + i3 + tmux
 
-![](https://i.imgur.com/27iLH61.png)
+<img src="https://i.imgur.com/27iLH61.png" width=250px/>
