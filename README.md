@@ -1,5 +1,5 @@
 # dotfiles
 
-I use Ubuntu (native) + i3 (window manager) + tmux (terminal multiplexer), my configurations can be found in this repository.
+Ubuntu native + i3 default + alacritty
 
-<center><img src="https://i.imgur.com/27iLH61.png" width=850px/></center>
+<center><img src="https://i.postimg.cc/x1yv0kyM/imagen.png" width=850px/></center>
