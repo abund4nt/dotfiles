@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="abund4nt"
+ZSH_THEME="c"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -18,6 +18,11 @@ ZSH_THEME="abund4nt"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
+
+# MODIFICAR EN CASO DE TENER PROBLEMAS CON JAVA
+export PATH="/usr/lib/jvm/java-11-openjdk-amd64/bin:$PATH"
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/abund4nt/go/bin
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -54,6 +59,8 @@ ZSH_THEME="abund4nt"
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+export PATH=$PATH:/home/abund4nt/.local/bin
+
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # You can set one of the optional three formats:
@@ -73,13 +80,13 @@ ZSH_THEME="abund4nt"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
 alias copy="xclip -sel clip"
 alias server="python3 -m http.server"
-alias ghidra="/home/abund4nt/.tools/ghidra/ghidra_11.1.2_PUBLIC/ghidraRun & disown"
-alias ida="/home/abund4nt/.tools/idafree-8.4/ida64 & disown"
-alias cat="batcat --style=plain"
+alias cat="batcat --style=plain --paging=never"
 alias catn="/bin/cat"
+alias ida="~/.tools/ida-free-pc-9.0/ida & disown"
+alias nxc="~/.tools/nxc/nxc"
+alias shell="python3 ~/.tools/Easy-Shell/shell.py"
 
 # User configuration
 
@@ -92,7 +99,7 @@ alias catn="/bin/cat"
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
-#   export EDITOR='mvim'
+#   export EDITOR='nvim'
 # fi
 
 # Compilation flags
